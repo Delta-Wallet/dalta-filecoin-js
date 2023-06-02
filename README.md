@@ -1,6 +1,6 @@
-# For Math Wallet DAPP Developer
+# For deta Wallet DAPP Developer
 
-## Using Math Wallet Filecoin JS API
+## Using deta Wallet Filecoin JS API
 
 ### Samples
 
@@ -45,8 +45,8 @@ await window.filecoin.requestSignature(transaction);
 ```
 For details, please find the sample in this repo.
 
-### Download Math Wallet 麦子钱包下载
+### Download deta Wallet 麦子钱包下载
 
-[http://mathwallet.org](http://mathwallet.org)
+[http://detawallet.org](http://detawallet.org)
 
 

@@ -3,7 +3,7 @@
     <v-content>
       <v-container fluid>
         <v-card light>
-          <v-card-title>{{account?account.name:"Open MathWallet"}}</v-card-title>
+          <v-card-title>{{account?account.name:"Open detaWallet"}}</v-card-title>
           <v-card-subtitle>{{account?account.address:""}}</v-card-subtitle>
           <v-card-actions>
             <v-btn class="primary" @click="login" v-if="!account">Log in</v-btn>
@@ -48,7 +48,7 @@ export default {
     },
     login() {
       if (!window.filecoin) {
-        alert("Please install MathWallet first!");
+        alert("Please install detaWallet first!");
         return;
       }
       window.filecoin.getAccount().then(account => {
