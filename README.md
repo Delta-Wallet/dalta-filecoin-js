@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # For deta Wallet DAPP Developer
 
 ## Using deta Wallet Filecoin JS API
@@ -44,16 +44,7 @@ const transaction =  {
 await window.filecoin.requestSignature(transaction);
 
 ```
-For details, please find the sample in this repo.
 
-### Download deta Wallet 麦子钱包下载
 
-[http://detawallet.org](http://detawallet.org)
-=======
-# For Delta Wallet DAPP Developer
-
-## Using  Delta Wallet Filecoin JS API
-
->>>>>>> 7a9db81ce051d50a536b4cadce6dfcda0e90bf44
 
 
